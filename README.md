@@ -1,5 +1,5 @@
 # Spring Framework 6: Beginner to Guru
-## Spring 6 Rest MVC
+## Spring 6 Cool Service
 
 This repository is for an example application built in my [Spring Framework 6 - Beginner to Guru](https://www.udemy.com/course/spring-framework-6-beginner-to-guru/?referralCode=2BD0B7B7B6B511D699A9) online course
 
