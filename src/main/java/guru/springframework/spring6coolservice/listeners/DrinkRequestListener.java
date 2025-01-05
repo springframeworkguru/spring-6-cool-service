@@ -21,7 +21,7 @@ public class DrinkRequestListener {
     private final DrinkRequestProcessor drinkRequestProcessor;
     private final KafkaTemplate<String, Object> kafkaTemplate;
 
-    @KafkaListener(groupId = "ColdListener", topics = KafkaConfig.DRINK_REQUEST_COOL_TOPIC)
+    @KafkaListener(groupId = "CoolListener", topics = KafkaConfig.DRINK_REQUEST_COOL_TOPIC)
     public void listenDrinkRequest(DrinkRequestEvent event) {
         log.debug("I am listening - drink request");
 
